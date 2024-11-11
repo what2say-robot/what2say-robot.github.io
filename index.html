@@ -115,7 +115,7 @@
             </div>
         </div>
 
-        <div class='myscope'>
+        <!-- <div class='myscope'>
           <section class="hero is-light is-small">
             <div class="hero-body">
               <div class="container">
@@ -123,12 +123,12 @@
 
                   <div class="item-0">
                     <video poster="" id="0" autoplay controls muted loop playsinline height="100%">
-                        <source src="videos/Case1-Ours.mp4" type="video/mp4">
+                        <source src="videos/Case1-Ours.mov" type="video/mov">
                     </video>
                   </div>
                   <div class="item-1">
                     <video poster="" id="1" autoplay controls muted loop playsinline height="100%">
-                        <source src="videos/Case2-Ours.mp4" type="video/mp4">
+                        <source src="videos/Case2-Ours.mov" type="video/mov">
                     </video>
                   </div>
                   <!-- <div class="item-2">
@@ -142,12 +142,14 @@
                     </video>
                   </div> -->
 
-                </div>
+                <!-- </div>
               </div>
             </div>
           </section>
-        </div>
-        <br>
+        </div> --> -->
+
+
+        <!-- <br>
         <div class="row justify-content-md-center">
             <div class="col-md-12 col-lg-10">
                 <h5 class="text-justify text-center">
@@ -155,7 +157,94 @@
                 </h5>
             </div>
         </div>
-        <br>
+        <br> -->
+
+        <div class='myscope'>
+            <section class="hero is-light is-small">
+              <div class="hero-body">
+                <div class="container">
+                  <div class="video-grid">
+          
+                    <!-- 第一行 -->
+                    <div class="video-item">
+                      <video poster="" autoplay controls muted loop playsinline>
+                        <source src="videos/Case1-No-Com.mov" type="video/quicktime">
+                      </video>
+                      <p class="caption">Case 1 - without Communication</p>
+                    </div>
+                    <div class="video-item">
+                      <video poster="" autoplay controls muted loop playsinline>
+                        <source src="videos/Case1-No-CP.mov" type="video/quicktime">
+                      </video>
+                      <p class="caption">Case 1 - without Conformal Prediction</p>
+                    </div>
+                    <div class="video-item">
+                      <video poster="" autoplay controls muted loop playsinline>
+                        <source src="videos/Case1-Ours.mov" type="video/quicktime">
+                      </video>
+                      <p class="caption">Case 1 - Ours</p>
+                    </div>
+          
+                    <!-- 第二行 -->
+                    <div class="video-item">
+                      <video poster="" autoplay controls muted loop playsinline>
+                        <source src="videos/Case2-No-Com.mov" type="video/quicktime">
+                      </video>
+                      <p class="caption">Case 2 - without Communication</p>
+                    </div>
+                    <div class="video-item">
+                      <video poster="" autoplay controls muted loop playsinline>
+                        <source src="videos/Case2-No-Takeover.mov" type="video/quicktime">
+                      </video>
+                      <p class="caption">Case 2 - without Takeover</p>
+                    </div>
+                    <div class="video-item">
+                      <video poster="" autoplay controls muted loop playsinline>
+                        <source src="videos/Case2-Ours.mov" type="video/quicktime">
+                      </video>
+                      <p class="caption">Case 2 - Ours</p>
+                    </div>
+          
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          
+          <style>
+            .video-grid {
+              display: grid;
+              grid-template-columns: repeat(3, 1fr);
+              gap: 20px;
+            }
+            
+            .video-item {
+              text-align: center;
+            }
+            
+            .video-item video {
+              width: 100%;
+              height: auto;
+            }
+            
+            .caption {
+              margin-top: 10px;
+              font-size: 14px;
+              color: #333;
+            }
+          </style>
+          
+          <br>
+          
+          <div class="row justify-content-md-center">
+            <div class="col-md-12 col-lg-10">
+              <h5 class="text-justify text-center">
+                What2Say Performance in Different Scenarios
+              </h5>
+            </div>
+          </div>
+          
+          <br>
 
         <div class="row justify-content-md-center">
             <div class="col-md-12 col-lg-10">
